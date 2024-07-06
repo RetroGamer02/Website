@@ -42,6 +42,7 @@ export default function (f, opts, next) {
         let members = WorldList.filter(x => x.members).length;
         let regions = {
             'United States': 'us',
+            'Eastern Canada': 'canada',
             Germany: 'ger',
             Australia: 'au',
             Japan: 'jp',
